@@ -3,18 +3,25 @@
 Hello! The project I have created is called **Foodalyzer**.
 Hopefully, that name is intriguing enough to make you want to read past this introductory
 sentence, but if not, keep reading anyway (please)!
+
 I. Overview
+
 According to colby.edu, over a quarter of American adults eat fast food daily.
 That information should be enough to grasp the widespread popularity of fast food. However,
 fast food isn’t always cheap, and with prices ever increasing, it can be hard to tell if you’re
 getting your money’s worth.
+
 This is only a bigger problem for college students, given that we typically have less to spend
 than an average working-class adult. This problem has motivated me to create **Foodalyzer** , a
-fast food analyzer application. **Foodalyzer** allows you to discover what menu items and
+fast food analyzer application. 
+
+**Foodalyzer** allows you to discover what menu items and
 combinations of menu items get you the most bang for your buck based on calorie and
 monetary amounts, so that you can spend less on fast food meals while putting more in your
 belly.
+
 II. Purpose
+
 The purpose of this project is to provide users with a simple and quick computational tool for
 getting your money’s worth at fast food restaurants. Here are some notable advantages of my
 application:
@@ -31,8 +38,10 @@ application:
 
 
 III. Functionalities and How To Use
+
 The main functionalities of my application consist of inserting and viewing data, and interacting
 with the data.
+
 **Inserting and viewing data:**
 When the program starts, you can only interact with one button in the window: the new
 restaurant button. Once you have clicked that button, you are prompted to specify the name of
@@ -45,6 +54,7 @@ it into the system by clicking done. Restaurants are shown on the left list view
 are shown on the right list view once they have been created.
 Important note: the menu items on the right list view only correlate to the selected restaurant on
 the left list view (i.e. not all menu items in the system may be shown at once).
+
 **Interacting with the data:**
 Once restaurants and menu items are entered in the system, users have the full ability to
 interact with them.
@@ -75,6 +85,7 @@ application.
 For example, I wrote the code to keep track of the highest value menu item, but I did not
 incorporate that into the JavaFX application. That is why there are some unused methods in the
 source code.
+
 IV. Elements
 
 1. Classes
@@ -111,7 +122,6 @@ IV. Elements
     e. InvalidPriceException.java
     f. NullMenuItemException.java
 
-
 7. Exception Handling
 Handled exception classes (non-runtime exceptions):
 a. InvalidAmountException.java
@@ -137,12 +147,10 @@ both integers and floats to be handled when that exception is thrown
 - MenuItem is comparable by calories per dollar, which is used to deduce the value
 of the menu item combinations
 More implementation notes are provided in the source code comments.
-VI. Rubric Efforts
-See next page.
 
+VI. Efforts Toward Quality
 
-User experience:
-
+**User experience**:
 - Some functionality is disabled (grayed out) until it is relevant, making it clear what the
     user needs to do to begin interacting with the application
 - Users are unlikely to make mistakes; data can only be entered if it meets intuitive criteria
@@ -155,22 +163,21 @@ User experience:
     - Everything in the application serves a purpose
 - Application was created with the idea that form follows function to ensure design
     aesthetics do not get in the way of the functionality of the application
-Consistent design:
+
+**Consistent design**:
 - All JavaFX GUI design elements are visually coherent
 - All JavaFX GUI elements were given intuitive placements on the screen
-Well-structured:
+
+**Well-structured**:
 - Encapsulation is heavily used in the source code, making it easy to make design
 changes if needed
-
-
 - Repeated code is kept to a minimum (helper methods are used as needed)
 - Code comments are used, but not overused
 - m_ variable naming was used as needed
-Purpose and novelty:
+
+**Purpose and novelty**:
 - I thought of the idea for this application when I was having trouble figuring out how to get
 the best value meal when I went to go get fast food, so it not only solves my own
 problem, but has the potential to solve the same problem for others
 - The application is presented professionally and compactly (i.e. not too much and not too
 little functionality)
-
-
