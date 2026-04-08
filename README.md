@@ -1,4 +1,4 @@
-# Foodalyzer
+# Foodalyzer, a Java Application by Logan Deal
 
 Hello! The project I have created is called **Foodalyzer**.
 Hopefully, that name is intriguing enough to make you want to read past this introductory
