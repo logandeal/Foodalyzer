@@ -4,7 +4,7 @@ Hello! The project I have created is called **Foodalyzer**.
 Hopefully, that name is intriguing enough to make you want to read past this introductory
 sentence, but if not, keep reading anyway (please)!
 
-I. Overview
+### I. Overview
 
 According to colby.edu, over a quarter of American adults eat fast food daily.
 That information should be enough to grasp the widespread popularity of fast food. However,
@@ -20,7 +20,7 @@ combinations of menu items get you the most bang for your buck based on calorie 
 monetary amounts, so that you can spend less on fast food meals while putting more in your
 belly.
 
-II. Purpose
+### II. Purpose
 
 The purpose of this project is to provide users with a simple and quick computational tool for
 getting your money’s worth at fast food restaurants. Here are some notable advantages of my
@@ -37,7 +37,7 @@ application:
        calories per dollar through menu items and restaurants entered in the system
 
 
-III. Functionalities and How To Use
+### III. Functionalities and How To Use
 
 The main functionalities of my application consist of inserting and viewing data, and interacting
 with the data.
@@ -79,14 +79,14 @@ Here is what you can do:
        meal and view it in the list view below
 
 
-Note: I planned to include more functionality in the JavaFX application, but due to time
+**Note**: I planned to include more functionality in the JavaFX application, but due to time
 constraints, I did not implement all of the functionality in my source code in the JavaFX
 application.
 For example, I wrote the code to keep track of the highest value menu item, but I did not
 incorporate that into the JavaFX application. That is why there are some unused methods in the
 source code.
 
-IV. Elements
+### IV. Elements
 
 1. Classes
     a. Amount.java
@@ -121,7 +121,6 @@ IV. Elements
     d. InvalidMealException.java
     e. InvalidPriceException.java
     f. NullMenuItemException.java
-
 7. Exception Handling
 Handled exception classes (non-runtime exceptions):
 a. InvalidAmountException.java
@@ -148,7 +147,7 @@ both integers and floats to be handled when that exception is thrown
 of the menu item combinations
 More implementation notes are provided in the source code comments.
 
-VI. Efforts Toward Quality
+### VI. Efforts Toward Quality
 
 **User experience**:
 - Some functionality is disabled (grayed out) until it is relevant, making it clear what the
